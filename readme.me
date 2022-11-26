@@ -1,0 +1,42 @@
+## Environment
+add .env file in the root folder with configuration as below
+
+## Example:
+MONGO_URL=
+PORT=
+
+## Installation
+- npm i
+- npm start
+
+Project will be running on 'localhost:${PORT}' and items will be seeded.
+
+## API Routes
+
+1- List Items:
+    route: '/api/items'
+    method: GET
+
+2- Create Cart:
+    route: '/api/carts'
+    method: POST
+    body: {
+        itemId: String,
+        quantity: Number
+    }
+
+3- Add To Cart:
+    route: '/api/carts/add/:id'
+    method: PATCH
+    body: {
+        itemId: String,
+        quantity: Number
+    }
+
+4- Remove From Cart:
+    route: '/api/carts/remove/:id/:itemId'
+    method: PATCH
+
+5- Get Cart:
+    route: '/api/carts/find/:id'
+    method: GET    

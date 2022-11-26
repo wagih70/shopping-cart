@@ -1,0 +1,52 @@
+[
+    {
+        "title": "SamSung",
+        "price": 5000,
+        "stock": 3
+    },
+    {
+        "title": "IPhone",
+        "price": 3000,
+        "stock": 10
+    },
+    {
+        "title": "BlackBerry",
+        "price": 6000,
+        "stock": 14
+    },
+    {
+        "title": "OnePlus",
+        "price": 7777,
+        "stock": 3
+    },    
+    {
+        "title": "Lenovo",
+        "price": 2222,
+        "stock": 7
+    },    
+    {
+        "title": "Google",
+        "price": 8563,
+        "stock": 17
+    },    
+    {
+        "title": "Sony",
+        "price": 1358,
+        "stock": 21
+    },    
+    {
+        "title": "Poco",
+        "price": 1820,
+        "stock": 6
+    },    
+    {
+        "title": "Nokia",
+        "price": 7000,
+        "stock": 3
+    },    
+    {
+        "title": "Motorolla",
+        "price": 3000,
+        "stock": 0
+    }
+]
